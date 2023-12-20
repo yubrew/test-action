@@ -18,3 +18,6 @@ This action adds PR metadata as comments to PRs. This way reviewers have more co
 
 run this to create `dist/index.js` 
 ```ncc build index.js --license licenses.txt```
+
+## Run locally
+change `local-run.example.js` to `local-run.js`, change vars, run `node local-run.js`
