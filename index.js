@@ -93,6 +93,20 @@ const main = async () => {
             issue_number: pr_number,
             labels: ['yaml'],
           });
+        case 'rs':
+          await octokit.rest.issues.addLabels({
+            owner,
+            repo,
+            issue_number: pr_number,
+            labels: ['rust'],
+          });
+        case 'sol':
+          await octokit.rest.issues.addLabels({
+            owner,
+            repo,
+            issue_number: pr_number,
+            labels: ['solidity'],
+          });
       }
     }
 
