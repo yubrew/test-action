@@ -1,29 +1,20 @@
 # New Github Action
 create a github action following https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action
 
-# Hello world javascript action
+# PR metadata
 
-This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
+This action adds PR metadata as comments to PRs. This way reviewers have more contextual info while reviewing the code diff.
 
 ## Inputs
 
-### `who-to-greet`
+### `repo`
 
-**Required** The name of the person to greet. Default `"World"`.
+### `token`
 
 ## Outputs
 
-### `time`
-
-The time we greeted you.
 
 ## Example usage
-
-```yaml
-uses: actions/hello-world-javascript-action@e76147da8e5c81eaf017dede5645551d4b94427b
-with:
-  who-to-greet: 'Mona the Octocat'
-```
 
 run this to create `dist/index.js` 
 ```ncc build index.js --license licenses.txt```
