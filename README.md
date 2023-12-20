@@ -21,3 +21,5 @@ run this to create `dist/index.js`
 
 ## Run locally
 change `local-run.example.js` to `local-run.js`, change vars, run `node local-run.js`
+
+## TODO
